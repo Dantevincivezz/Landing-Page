@@ -1,0 +1,141 @@
+body{padding: 0; margin: 0;display:flexbox}
+
+header{
+    background-color: #cfc4c4;
+    height: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.mainLogo{margin: auto 20px; color:#F9FaF8;font-family: 'Roboto', sans-serif;}
+.mainMenu{margin: auto 0;padding: 0px 5px;font-family: 'Roboto', sans-serif;}
+.mainMenu>a{padding:0px 5px;}
+p{font-family: 'Roboto', sans-serif;}
+
+.thumbnail{
+    width: 25vw; 
+    background-color: inherit;
+}
+.thumbnail-small{
+    width: 10vw;
+    padding-left:20px;
+    padding-right: 20px;
+    background-color: inherit;
+}
+.paralax {
+    background-image: url("https://images7.alphacoders.com/304/304425.jpg");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.infoBox{
+    padding:20px;
+    background-color: #3882f6;
+    text-align: justify;
+}
+
+span.presentation{
+    width:25vw;
+    border-style: hidden;
+    border-radius: 0px;
+
+}
+.presentation>p{
+    color: #F9FaF8;
+    text-align: left;
+}
+span>h1{
+    font-size: 42px;
+    font-weight: 900;
+    color:#F9FaF8;
+}
+span{
+    padding: 0 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.callToActionButton{
+    background: rgb(56,130,246);
+    border-style: hidden;
+    border-radius: 8px;
+    min-width: 110px;
+    min-height: 30px;
+    color: #F9FaF8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+main{
+    display:flex;
+    flex-flow: column;
+    background-color: #cfcfc4;
+    min-height: auto;
+}
+
+
+
+
+#flex-container{
+    display: flex;
+    width:60vw;
+    justify-content: center;
+    overflow: hidden;
+}
+#flex-container-1{
+    background-color: #c4cfcf;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+#flex-container-2{
+    background-color: #cfcfc4;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+#flex-container-3{
+    background-color: #c4c4cf;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+#flex-container-4{
+    background-color: #c4c4cf;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+
+footer{
+    background-color: #cfcfc4;
+    padding: 25px;
+    color: #F9FaF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+figure{margin:1em 20px}
+
+
+
+.addBorder{border-style: solid; border-color: aliceblue;}
+.fontColorWhite{color: aliceblue;font-family: 'Roboto', sans-serif}
+.fontColorBlack{color: black;font-family: 'Roboto', sans-serif}
+.centered{display:block; text-align: center; margin: auto 0; padding: 0px 5px;}
+.rounded-corners{border-style: hidden; border-radius: 100px;}
+.rounded-corners-small{border-style: hidden; border-radius: 10px;}
+
+.thumbcaption{width: 250px;}
+.author{text-align:right; padding: 0 10px;}
+
